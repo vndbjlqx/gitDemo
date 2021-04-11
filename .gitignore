@@ -1,0 +1,8 @@
+/.idea/
+/allure-results/
+/pytestHomework/.pytest_cache/
+/pytestHomework/.pytest_cache/*
+pytestHomework/__pycache__/
+
+
+

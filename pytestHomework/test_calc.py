@@ -10,6 +10,15 @@
     自动运行相当于隐式调用。应该是用于初始化一些环境信息。
     如果scope=module 级别，不管在几个func中调用，都只会在该module中执行一次。
     fixture 的yield相当于中间返回，等调用程序执行完成后，再返回执行后面的语句。
+
+    #运行测试运行，并指明结果收集位置
+    pytest testAllure01.py --alluredir=./result/1 [--clean-alluredir]
+
+    #使用allure生成测试报告，会使用默认浏览器现实报告
+    allure serve ./result/1
+
+    #使用allure生成现实报告
+    allure generate ./result/1 -o ./result/1report --clean
 """
 import allure
 import pytest

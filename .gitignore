@@ -3,6 +3,9 @@
 /pytestHomework/.pytest_cache/
 /pytestHomework/.pytest_cache/*
 pytestHomework/__pycache__/
+pytestHomework/report
+/**/__pycache__/
+
 
 
 

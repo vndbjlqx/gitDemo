@@ -1,0 +1,12 @@
+test_add_member:
+  datas:
+    member: {"username": "Alice", "accid": "11019876", "phone": "13657609847"}
+
+test_add_department:
+  datas:
+    - [ "abc001", "刘群星企业微信" ]
+
+test_batch_add_contact_by_file:
+  datas:
+    - - file_path: "E:\\PycharmProjects\\gitDemo\\seleniumWebDriverHomework\\testData\\batchEmp.xlsx"
+      - expect_names: [ "张三", "王五" ]

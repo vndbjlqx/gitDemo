@@ -1,0 +1,11 @@
+envInfo:
+  targetEnv : 'debug_env' # the value are test_env, dev_env and debug_env
+  tar_Browser : 'Chrome' # the value are Chrome, Firefox, Headless
+  basic_data_file : ""
+
+  test_env:
+    url : "https://work.weixin.qq.com/wework_admin/frame#index"
+  dev_env:
+    url : "https://work.weixin.qq.com/wework_admin/frame#index"
+  debug_env:
+    url : "https://work.weixin.qq.com/wework_admin/frame#index"

@@ -5,6 +5,9 @@ update this file for testing.
 #使用镜像安装插件
 pip install [pyyaml] -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com
 
+# cmd kill chromedriver 进程
+taskkill /f /t /im chromedriver.exe
+
 #总结一些坑
 创建包，会有__init__.py文件，说明这是一个module，一般文件夹没有。
 你只能从 包 中导入module，类， 所以，出现在 import 语句中的路径下必须有__init__.py

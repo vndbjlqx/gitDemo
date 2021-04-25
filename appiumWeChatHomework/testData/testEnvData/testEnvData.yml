@@ -1,0 +1,8 @@
+envInfo:
+  targetEnv : 'android_60' # the value are android_env, ios_env
+
+  android_60:
+     { platformName: "Android", platformVersion: '6.0.1', deviceName: "127.0.0.1:7555" }
+  ios_00:
+     { platformName: "Android", platformVersion: '6.0.1', deviceName: "127.0.0.1:7555" }
+

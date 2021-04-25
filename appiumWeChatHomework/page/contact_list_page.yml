@@ -1,0 +1,6 @@
+goto_add_friend_page:
+  - { by: xpath, locator: '//*[@text="添加成员"]', action: click}
+get_contact_list:
+  - { bys: xpath, locator: '//*[@text="企业通讯录"]/../..//android.widget.TextView' }
+search:
+  - { by: xpath, locator: '//*[@text="刘群星企业微信"]/../../../../../android.widget.LinearLayout[2]/android.widget.RelativeLayout[1]/android.widget.TextView', action: click}

@@ -1,0 +1,8 @@
+search_person:
+  - { by: xpath, locator: '//*[@text="搜索"]', action: send, value: "{search_person_name}"}
+search_and_select_person_by_name:
+  - { by: xpath, locator: '//android.widget.TextView[@text="{search_person_name}"]', by_value: "search_person_name", action: click}
+search_person_result_list:
+  - { bys: xpath, locator: '//android.view.ViewGroup/android.widget.TextView' }
+back_to_contact_list_page:
+  - { by: xpath, locator: '//android.widget.LinearLayout/android.widget.TextView', action: click}

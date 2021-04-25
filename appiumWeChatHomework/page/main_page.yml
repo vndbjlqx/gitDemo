@@ -1,0 +1,4 @@
+goto_contact_list_page:
+  - { by: xpath, locator: '//*[@text="通讯录"]', action: click}
+goto_msg_page:
+  - { by: xpath, locator: '//*[@text="消息"]', action: click}

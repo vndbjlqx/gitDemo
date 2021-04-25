@@ -1,0 +1,3 @@
+delete_person:
+  - { by_scroll: "", text: '删除成员', action: click}
+  - { by: xpath, locator: '//*[@text="确定"]', action: click}

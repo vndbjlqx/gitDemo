@@ -1,0 +1,7 @@
+test_add_friend:
+  datas:
+    - [ "马小西", "13810000215" ]
+
+test_delete_friend:
+  datas:
+    - "马小西"

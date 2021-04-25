@@ -1,0 +1,5 @@
+input_friend_info:
+  - { by: xpath, locator: '//*[*[contains(@text,"姓名")]]/*[contains(@class,"EditText")]', action: send, value: "{friend_name}"}
+  - { by: xpath, locator: '//*[*[contains(@text,"手机")]]//android.widget.EditText', action: send, value: "{friend_phone}"}
+save:
+  - { by: xpath, locator: '//*[@text="保存"]', action: click}
